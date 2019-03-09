@@ -1,0 +1,76 @@
+.regis{
+    width:70%;
+    float:right;
+    margin:10vh 0 0 0;
+}
+.regis h1{
+    text-align: center;
+    font-size:35px;
+    padding:0 0 50px 0;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color:lightseagreen;
+}
+.form{
+    width:80%;
+    margin:20px auto;
+}
+.form label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+	display:inline-block;
+	margin-top:7.5px;
+	margin-bottom:7.5px;
+}
+input{
+    height:30px;
+    width:74%;
+    border-radius: 20px;
+    border:1px solid silver;
+    text-indent: 10px;
+	float:right;
+}
+input:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+textarea{
+    height:110px;
+    width:74%;
+    border-radius: 15px;
+    border:1px solid silver;
+    text-indent: 10px;
+	margin-bottom:15px;
+	float:right;
+}
+textarea:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+
+}
+.names{
+    width:30%;
+    float:left;
+    text-align: right;
+}
+.inputs{
+    width:70%;
+    float:right;
+}
+fieldset{
+    width:500px;
+    height:700px;
+	border-style: none;
+}
+button{
+    width:75px;
+    height:35px;
+    border-radius:7px;
+    border:none;
+    background: lightsteelblue;
+    color:white;
+    transition:0.3s;
+}
+button:hover{
+    background: #02254f;
+    cursor:pointer;
+}

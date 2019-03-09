@@ -1,0 +1,235 @@
+.out{
+    width:70%;
+    float:right;
+    margin:50px 0 0 0;
+}
+.posit{
+    width:572px;
+    padding: 10px 0 0 0;
+    float:left;
+    background: white;
+}
+.post{
+    width:540px;
+    height:350px;
+    margin:15px;
+    float:left;
+    border:1px solid lightseagreen;
+    border-radius:20px;
+    transition: 0.2s;
+}
+.post:hover{
+    box-shadow: 5px 5px 2.5px lightseagreen;
+}
+.pictu{
+    width:100%;
+    height:250px;
+    border-radius:20px 20px 0 0;
+    
+    background-size: cover;
+    z-index:9999;
+    overflow: hidden;
+}
+.info{
+    width:100%;
+    height:25px;
+    margin:225px 0 0 0;
+}
+.about{
+    width:30%;
+    height:25px;
+    border-radius:0 20px 0 0;
+    text-align: center;
+    background: rgba(0, 242, 255,0.5);
+    color:white;
+    transition:0.1s;
+    text-transform:uppercase;
+    padding:2px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+}
+.about:hover{
+    background: rgb(0, 242, 255);
+}
+.detail{
+    width:100%;
+    height:100px;
+    border-radius:0 0 20px 20px;
+    overflow: hidden;
+}
+.detailAnimal{
+    width:80%;
+    height:100px;
+    float:left;
+    border-radius:0 0 0 20px;
+    overflow: hidden;
+}
+.infoAnimal{
+    width:50%;
+    height:100px;
+    float:left;
+    border-radius:0 0 0 20px;
+}
+.infoAnimal p{
+    padding:5px 0 5px 10px;
+    color:lightseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+}
+.infoAnimal p:first-child{
+    margin:10px 0 0 0
+}
+.infoAnimal p:hover{
+    background: lightseagreen;
+    color:white;
+    border-radius: 20px;
+}
+.more{
+    width:50%;
+    height:100px;
+    float:right;
+}
+.more img{
+    width:80px;
+    height:80px;
+    margin:10px 0 0 0;
+    transition: 0.2s;
+}
+.more img:hover{
+    width:90px;
+    height:90px;
+    margin:5px 0 0 5px;
+    cursor:pointer;
+}
+.user{
+    width:20%;
+    height:100px;
+    float:right;
+    border-radius:0 0 20px 0;
+    overflow: hidden;
+}
+.user img{
+    width:80px;
+    height:80px;
+    margin:10px 0 0 15px;
+    border-radius:0 0 20px 0;
+    transition: 0.2s;
+}
+.user img:hover{
+    width:90px;
+    height:90px;
+    margin:5px 0 0 5px;
+    cursor:pointer;
+}
+.famalepost{
+    width:540px;
+    height:350px;
+    float:left;
+    margin:10px;
+    border:1px solid #ef2626;
+    border-radius:20px;
+    transition: 0.2s;
+}
+.famalepost:hover{
+    box-shadow: 5px 5px 2.5px #ef2626;
+}
+.famalepictu{
+    width:100%;
+    height:250px;
+    border-radius:20px 20px 0 0;
+   
+    background-size: cover;
+    z-index:9999;
+    overflow: hidden;
+}
+.famaleinfo{
+    width:100%;
+    height:25px;
+    margin:225px 0 0 0;
+}
+.famaleabout{
+    width:30%;
+    height:25px;
+    border-radius:0 20px 0 0;
+    text-align: center;
+    background: rgba(252, 20, 20,0.5);
+    color:white;
+    transition:0.1s;
+    text-transform:uppercase;
+    padding:2px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+}
+.famaleabout:hover{
+    background: rgb(252, 20, 20);
+}
+.famaledetail{
+    width:100%;
+    height:100px;
+    border-radius:0 0 20px 20px;
+    overflow: hidden;
+}
+.famaledetailAnimal{
+    width:80%;
+    height:100px;
+    float:left;
+    border-radius:0 0 0 20px;
+    overflow: hidden;
+}
+.famaleinfoAnimal{
+    width:50%;
+    height:100px;
+    float:left;
+    border-radius:0 0 0 20px;
+}
+.famaleinfoAnimal p{
+    padding:5px 0 5px 10px;
+    color:rgb(252, 20, 20)n;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+}
+.famaleinfoAnimal p:first-child{
+    margin:10px 0 0 0
+}
+.famaleinfoAnimal p:hover{
+    background: rgb(252, 20, 20);
+    color:white;
+    border-radius: 20px;
+}
+.famalemore{
+    width:50%;
+    height:100px;
+    float:right;
+}
+.famalemore img{
+    width:80px;
+    height:80px;
+    margin:10px 0 0 0;
+    transition: 0.2s;
+}
+.famalemore img:hover{
+    width:90px;
+    height:90px;
+    margin:5px 0 0 5px;
+    cursor:pointer;
+}
+.famaleuser{
+    width:20%;
+    height:100px;
+    float:right;
+    border-radius:0 0 20px 0;
+    overflow: hidden;
+}
+.famaleuser img{
+    width:80px;
+    height:80px;
+    margin:10px 0 0 15px;
+    border-radius:0 0 20px 0;
+    transition: 0.2s;
+}
+.famaleuser img:hover{
+    width:90px;
+    height:90px;
+    margin:5px 0 0 5px;
+    cursor:pointer;
+}

@@ -1,0 +1,138 @@
+.post{
+	display: none;
+    width:45%;
+    margin-top:-1%;
+	margin-left:15%;
+    border:1px solid lightseagreen;
+    border-radius:20px;
+    transition: 0.2s;
+	z-index:4;
+	position:absolute;
+	background:white;
+}
+.post:hover{
+    box-shadow: 5px 5px 2.5px lightseagreen;
+}
+.pictu{
+    width:100%;
+    height:250px;
+    border-radius:20px 20px 0 0;
+    
+    background-size: cover;
+    z-index:9999;
+    overflow: hidden;
+}
+.info{
+    width:100%;
+    height:25px;
+    margin:225px 0 0 0;
+}
+.about{
+    width:30%;
+    height:25px;
+    border-radius:0 20px 0 0;
+    text-align: center;
+    background: rgba(0, 242, 255,0.5);
+    color:white;
+    transition:0.1s;
+    text-transform:uppercase;
+    padding:2px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.about:hover{
+    background: rgb(0, 242, 255);
+}
+.detail{
+    width:100%;
+    height:100px;
+    border-radius:0 0 20px 20px;
+    overflow: hidden;
+}
+.detailAnimal{
+    width:80%;
+    height:100px;
+    float:left;
+    border-radius:0 0 0 20px;
+    overflow: hidden;
+}
+.infoAnimal{
+    width:50%;
+    height:100px;
+    float:left;
+    border-radius:0 0 0 20px;
+}
+.infoAnimal p{
+    padding:5px 0 5px 10px;
+    color:lightseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+}
+.infoAnimal p:first-child{
+    margin:10px 0 0 0
+}
+.infoAnimal p:hover{
+    background: lightseagreen;
+    color:white;
+    border-radius: 0 20px 20px 0;
+}
+.more{
+    width:50%;
+    height:100px;
+	margin-left:10px;
+}
+.more img{
+    width:80px;
+    height:80px;
+	float:left;
+    margin:10px 0 0 0;
+    transition: 0.2s;
+}
+.more img:hover{
+    width:90px;
+    height:90px;
+    margin:5px 0 0 5px;
+    cursor:pointer;
+}
+.user{
+    width:20%;
+    height:100px;
+    border-radius:0 0 20px 0;
+    overflow: hidden;
+}
+.user img{
+    width:70px;
+    height:70px;
+    margin:10px 0 0 15px;
+    border-radius:40px;
+    transition: 0.2s;
+	float:left;
+}
+.user img:hover{
+    width:75px;
+    height:75px;
+    margin:5px 0 0 5px;
+    cursor:pointer;
+}
+.description p{
+    padding:5px 0 5px 10px;
+    color:lightseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+    border-radius:0 20px 20px 0;
+    width:90%;
+}
+.description p:hover{
+    background: lightseagreen;
+    border-radius:0 20px 20px 0;
+    color:white;
+}
+
+button{
+	width:120px;
+	height:40px;
+	border-radius:20px;
+	border-style:none;
+	
+	}
+

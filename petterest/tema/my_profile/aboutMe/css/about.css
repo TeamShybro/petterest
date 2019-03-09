@@ -1,0 +1,64 @@
+body{
+    background: #e9ebee;
+}
+#about{
+    width:80%;
+    float:right;
+    margin:10vh 0 0 0;
+}
+#about .out_pic{
+    width:100%;
+}
+#about .out_pic .in_pic{
+    width:521px;
+    margin:auto;
+}
+#about .out_pic .in_pic img{
+    border:5px solid ;
+    border-radius: 10px;
+    border-color:#02254f;
+}
+#about .out_userInfo{
+    width:100%;
+}
+#about .out_userInfo .in_userInfo{
+    width:70%;
+    margin:50px auto;
+}
+#about .out_userInfo .in_userInfo p{
+    color:lightseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px 5px 10px 5px; 
+    transition:0.5s;
+}
+#about .out_userInfo .in_userInfo p{
+    border-radius:15px;
+    padding-left:9px;
+}
+#about .out_userInfo .in_userInfo p:hover{
+    background:lightseagreen;
+    color:#02254f;
+    padding:10px 5px 10px 9px; 
+}
+.btn{
+    width:100%;
+}
+.btn button{
+    float:right;
+    margin:50px;
+    color:white;
+    background: #02254f;
+    width:200px;
+    height:50px;
+    border:1px solid lightblue;
+    border-radius:20px; 
+    transition:0.2s;
+}
+.btn button:hover{
+    color:white;
+    background: lightblue;
+    cursor: pointer;
+}
+
+
+

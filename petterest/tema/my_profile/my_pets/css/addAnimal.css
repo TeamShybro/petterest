@@ -1,0 +1,90 @@
+.messagepop{
+    width:500px;
+	z-index:5;
+	position: relative;
+	display:none;
+	float:left;
+	background: white;
+	margin-top:-20%;
+	margin-left:25%;
+	border-radius:20px;
+	padding:10px;
+	border:1px solid lightseagreen;
+	
+}
+fieldset{
+    border-radius:20px;
+	border-style: none;
+    
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+	line-height:34px;
+    color:lightseagreen;
+	
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+	margin-top:7.5px;
+	margin-bottom:7.5px;
+    color:lightseagreen;  
+}
+input{
+    height:30px;
+    width:70%;
+    border-radius: 20px;
+	float:right;
+    border:1px solid silver;
+    text-indent: 10px;
+	
+	
+		
+}
+input:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+select{
+    width:100px;
+    height:34px;
+    border-radius: 20px;
+    border:1px solid silver;
+    text-indent: 10px; 
+	float:right;
+    
+}
+option{
+    height:30px;
+    width:74%;
+    border-radius: 20px;
+    border:1px solid silver;
+    text-indent: 10px;
+}
+textarea{
+    height:110px;
+    width:54%;
+    border-radius: 15px;
+    border:1px solid silver;
+    text-indent: 10px;
+	float:right;
+}
+textarea:focus{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+button{
+    width:75px;
+    height:35px;
+    border-radius:7px;
+    border:none;
+    background: lightsteelblue;
+    color:white;
+    transition:0.3s;
+    margin-top:80px;
+}
+button:hover{
+    background: #02254f;
+    cursor:pointer;
+}

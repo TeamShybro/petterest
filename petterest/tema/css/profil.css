@@ -1,0 +1,37 @@
+*{margin:0;padding:0;text-decoration:none;list-style-type:none;}
+.purposeUser{
+    width:50%;
+    height:50%;
+    border:1px solid lightseagreen;
+}
+.pUserImage{
+    width:100%;
+    height:100px;
+}
+.pUserImage .pImage{
+     width:15%;
+     margin:0 auto;
+}
+.pUserImage .pImage img{
+    width:100%;
+    height:70px; /*burayı resim yüklendiğinde değiştirin amq*/
+    border-radius:10px;
+    margin-top:10px;
+}
+.pUserInfo{
+    width:100%;
+    height:100px;
+    padding:20px 20px 20px 20px;
+    text-align: center;
+}
+.pUserAnimal{
+    width:100%;
+    height:150px;
+}
+.pUserAnimal ._1{
+    width:20%;
+    height:75px;
+    float:left;
+    border:1px solid lightseagreen;
+    margin:15px
+}

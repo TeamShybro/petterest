@@ -1,0 +1,95 @@
+#publishing-area{
+    width:80%;
+    margin:50px 0 0 0;
+    float:right;
+    background: #e9ebee;
+    height:500px;
+}
+.out{
+    width:80%;
+    margin:30px auto;
+}
+.animal{
+    float:left;
+    width:175px;
+    height:200px;
+    margin:0 20px 20px 0;
+    border:1px solid lightblue;
+    background-size:cover;
+    background-image: url(../images/kopek.png);
+    /*background: red; örnek olarak kunulmuştur aslında resim gelece*/
+    border-radius: 20px;
+    transition:0.1s;
+}
+.animal:hover{
+    box-shadow: 5px 5px 2.5px #0061ff;
+}
+.nameAnimal{
+    height:30px;
+    margin:101px 0 0 0px;
+    padding:10px 0 0 21px;
+    background:rgba(0, 97, 255,0.6);
+    border-radius:0 0 20px 20px;
+    color:white;
+    font-weight: bold;
+    transition:0.1s;
+}
+.nameAnimal:hover{
+    background:rgb(0, 97, 255);
+    cursor: pointer;
+}
+.animald{
+    float:left;
+    width:175px;
+    height:200px;
+    margin:0 20px 20px 0;
+    border:1px solid lightcoral;
+    background-size:cover;
+    background-image: url(../images/dkopek.png);
+    /*background: red; örnek olarak kunulmuştur aslında resim gelece*/
+    border-radius: 20px;
+    transition:0.1s;
+}
+.animald:hover{
+    box-shadow: 5px 5px 2.5px #ff6100;
+}
+.nameAnimald{
+    height:30px;
+    margin:101px 0 0 0px;
+    padding:10px 0 0 22px;
+    background:rgba(255, 97, 0,0.6);
+    border-radius:0 0 20px 20px;
+    color:white;
+    font-weight: bold;
+    transition:0.1s;
+}
+.nameAnimald:hover{
+    background:rgb(255, 97, 0);
+    cursor: pointer;
+}
+.animalAdd{
+    float:left;
+    width:175px;
+    height:200px;
+    margin:0 20px 20px 0;
+    /*background: red; örnek olarak kunulmuştur aslında resim gelece*/
+    border-radius: 20px;
+    transition:0.1s;
+}
+.addAnimal{
+    float:left;
+    width:150px;
+    height:150px;
+    margin:30px 0px 0px 10px;
+    /*background: red; örnek olarak kunulmuştur aslında resim gelece*/ 
+    border-radius: 20px;
+    transition:0.1s;
+}
+.addAnimal:hover{
+    width:160px;
+    height:160px;
+    cursor:pointer;
+}
+
+
+
